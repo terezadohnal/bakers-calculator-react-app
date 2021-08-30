@@ -1,10 +1,11 @@
+import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
     <div>
       <Navbar />
-      <h1>Baker's Calculator</h1>
+      <Footer />
     </div>
   );
 }
