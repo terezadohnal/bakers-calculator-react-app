@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The baker's calculator</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <img src="" alt="" />
+        <h3>Baker's calculator</h3>
+      </div>
+      <nav>
+        <ul>
+          <li>Recipes</li>
+          <li>Calculator</li>
+          <li>How to use</li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Form</h2>
+        <form>
+          <div>
+            <div>
+              <label for="loafWeight">Weight of one loaf:</label>
+              <input type="text" id="loafWeight" />
+            </div>
+            <div>
+              <label for="loafCount">How many loaves you want to bake?</label>
+              <input type="text" id="loafCount" />
+            </div>
+          </div>
+          <h2>Ingredients</h2>
+          <div>
+            <div>
+              <div>
+                <label for="ingredient-1">1. Ingredient</label>
+                <input type="text" id="ingredient-1" />
+              </div>
+              <div>
+                <input type="number" min="0" max="100" id="percentage-1" />
+                <label for="percentage-1">%</label>
+              </div>
+            </div>
+            <div>
+              <div>
+                <label for="ingredient-2">2. Ingredient</label>
+                <input type="text" id="ingredient-2" />
+              </div>
+              <div>
+                <input type="number" min="0" max="100" id="percentage-2" />
+                <label for="percentage-2">%</label>
+              </div>
+            </div>
+            <div>
+              <div>
+                <label for="ingredient-3">3. Ingredient</label>
+                <input type="text" id="ingredient-3" />
+              </div>
+              <div>
+                <input type="number" min="0" max="100" id="percentage-3" />
+                <label for="percentage-3">%</label>
+              </div>
+            </div>
+          </div>
+          <button type="button">Add Ingredient</button>
+          <button type="submit">Calculate the recipe</button>
+        </form>
+      </section>
+
+      <section>
+        <h2>Recipe</h2>
+        <div>
+          <ul>
+            <li>
+              <p>Flour</p>
+              <p>.....</p>
+              <p>1 KG</p>
+            </li>
+            <li>
+              <p>Water</p>
+              <p>.....</p>
+              <p>1 L</p>
+            </li>
+            <li>
+              <p>Salt</p>
+              <p>.....</p>
+              <p>10 G</p>
+            </li>
+          </ul>
+        </div>
+        <button type="button">Print me out</button>
+      </section>
+    </main>
+
+    <footer>
+      <p>Made by Perdicka&Samouš</p>
+    </footer>
+  </body>
+</html>
