@@ -4,7 +4,6 @@ function App() {
   return (
     <div>
       <Navbar />
-      <h1>Baker's Calculator</h1>
     </div>
   );
 }

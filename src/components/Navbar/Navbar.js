@@ -3,9 +3,8 @@ import classes from "./Navbar.module.css";
 const Navbar = () => {
   return (
     <header className={classes.header}>
-      <div>
-        {/* <img src="" alt="" /> */}
-        <h3>Baker's calculator</h3>
+      <div className={classes.brand}>
+        <h3>🍞 Baker's calculator</h3>
       </div>
       <nav>
         <ul>

@@ -1,4 +1,46 @@
 .header {
   width: 100%;
   background-color: antiquewhite;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header nav {
+  width: 50%;
+}
+
+.header nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.header nav ul li {
+  height: fit-content;
+  letter-spacing: 0.3rem;
+  font-size: 1.3rem;
+  transition: all 200ms ease-in-out;
+}
+
+.header nav ul li:hover {
+  font-size: 1.4rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.brand {
+  margin-left: 2rem;
+}
+
+.brand h3 {
+  font-size: 2rem;
+  letter-spacing: 0.1;
+}
+
+.brand h3:hover {
+  cursor: pointer;
 }
