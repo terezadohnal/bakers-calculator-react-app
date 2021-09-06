@@ -4,6 +4,7 @@ import Layout from "./components/Layout/Layout";
 import Page from "./components/Page/Page";
 import Card from "./components/UI/Card/Card";
 import classes from "./App.module.css";
+import CalculatorForm from "./components/CalculatorForm/CalculatorForm";
 
 function App() {
   return (
@@ -11,7 +12,9 @@ function App() {
       <Navbar />
       <Layout>
         <Page>
-          <Card />
+          <Card>
+            <CalculatorForm />
+          </Card>
           <Card />
         </Page>
       </Layout>

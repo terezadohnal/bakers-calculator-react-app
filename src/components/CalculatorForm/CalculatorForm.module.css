@@ -1,0 +1,35 @@
+.calculatorForm {
+  width: 300px;
+  margin: auto;
+}
+
+.calculatorForm h2 {
+  text-align: center;
+}
+
+.calculatorForm input {
+  display: block;
+  width: 100%;
+  height: 30px;
+}
+
+.calculatorForm .ingredientsForm {
+  display: flex;
+}
+
+.calculatorForm .ingredientsForm .ingredientsControl {
+  width: 83%;
+}
+
+.calculatorForm .ingredientsForm .ingredientsFormPercentage {
+  display: flex;
+  width: 15%;
+  align-items: flex-end;
+  margin-left: 2%;
+}
+
+.calculatorForm button {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+}
